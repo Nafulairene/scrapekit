@@ -6,6 +6,7 @@
 - [ ] Async client (`httpx` / `aiohttp`) sharing the same proxy pool and limiter
 - [ ] **Scrapy template**: downloader middleware wrapping `ProxyPool` + example spider
 - [ ] **Selenium template**: headless Chrome with proxy auth and explicit waits
+- [ ] **Playwright template**: Python Playwright with a proxy per browser context, auto-waiting, and retries
 - [ ] **Puppeteer template** (Node): rotating proxies, request interception, retries
 - [ ] Proxy health-check CLI (`python -m scrapekit.check proxies.txt`)
 - [ ] Output pipelines: JSONL / CSV writers with deduplication
